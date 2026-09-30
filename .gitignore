@@ -1,0 +1,19 @@
+# Dependências
+node_modules/
+
+# Arquivo de dados de configuração local do Obsidian (onde fica a API Key durante testes)
+data.json
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Pastas de IDE e SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

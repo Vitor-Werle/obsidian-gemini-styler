@@ -1,0 +1,38 @@
+/* Estilos personalizados para o Gemini Document Styler */
+
+.gemini-styler-setting-desc-hint {
+	font-size: 0.85em;
+	color: var(--text-muted);
+	margin-top: 4px;
+}
+
+.gemini-styler-api-container {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	width: 100%;
+}
+
+.gemini-styler-api-input {
+	flex-grow: 1;
+}
+
+.gemini-styler-preview-box {
+	background-color: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	padding: 12px;
+	font-size: 0.9em;
+	margin-top: 10px;
+	white-space: pre-wrap;
+}
+
+.gemini-styler-tag {
+	display: inline-block;
+	background-color: var(--interactive-accent);
+	color: var(--text-on-accent);
+	padding: 2px 8px;
+	border-radius: 4px;
+	font-size: 0.8em;
+	font-weight: 600;
+}

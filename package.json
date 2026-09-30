@@ -1,0 +1,28 @@
+{
+	"name": "obsidian-gemini-styler",
+	"version": "1.0.0",
+	"description": "Obsidian plugin to style and format documents using the Google Gemini API",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "node esbuild.config.mjs production"
+	},
+	"keywords": [
+		"obsidian",
+		"obsidian-plugin",
+		"gemini",
+		"ai",
+		"formatter",
+		"markdown",
+		"styling"
+	],
+	"author": "Vitor",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.14.0",
+		"esbuild": "^0.23.0",
+		"obsidian": "latest",
+		"tslib": "^2.6.3",
+		"typescript": "^5.5.0"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-gemini-styler",
+	"name": "Gemini Document Styler",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Estilize, organize e formate notas do Obsidian usando a API do Google Gemini com comandos e atalhos.",
+	"author": "Vitor",
+	"authorUrl": "https://github.com/",
+	"isDesktopOnly": false
+}
